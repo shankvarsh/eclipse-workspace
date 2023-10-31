@@ -1,0 +1,1 @@
+Start_page is the index page for the vip project.
