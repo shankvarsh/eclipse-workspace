@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="css/responsive-style.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100" style="background-color:#FBF8FF;">
+    <!-- header design -->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap" style="background:#472780">
+        <div class="container">
+          <a class="navbar-brand" href="main_page.html">
+             <img src="images/vip.png" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+
+
+
+          </div>
+        </div>
+      </nav>
+
+    </header>
+    <h1 style="position:absolute;margin-left:20px;top:130px;">Terms of Service</h1>
+  <div style="position:absolute;overflow: auto;margin-left:15px;top:200px;width:1440px;height:500px;border-radius: 0.5rem;background-color:white; box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%); margin-left:50px;" >Thanks for showing interest in Unified Mobile Application for New Age Governance (VIP), which is an initiative of National e-Governance Division (NeGD), Ministry of Electronics & Information Technology (MeitY), Government of India.<br>
+
+'VIP’ refers to the services being provided through VIP mobile App, VIP website - https://www.vip.gov.in and VIP toll free IVR - 1800-11-5246. VIP is free to download and there is no subscription fee to be paid by You to use VIP.<br>
+
+VIP intends to provide major services offered by Central, State, Union Territory Government departments, Local bodies and their agencies and corporate/private bodies (utility services) through one single mobile App, one URL, one SMS short code and one Toll free number.<br>
+
+Through VIP, you can access and avail government services on-boarded on VIP. You can use VIP application in different ways including, service discovery, availing services, finding out relevant government schemes, what is trending and so on. VIP allows you to create your favourite list of services and search for services available on VIP. VIP aims to provide a personalized experience and recommends services based on your personal and usage details.<br>
+
+Your use of VIP is subject to the consent of these Terms of Service/Use (referred to as “Terms” that also mean to include any additional guidelines and/or modifications to these Terms of Service/Use as may be introduced from time to time). You are required to give your consent to these Terms in totality. If you do not agree to the Terms or any part thereof, you should not download/access VIP and use services offered through VIP. The features, functionality and the scope (in terms of services on-boarded on VIP) shall evolve with time. Please refer to the website ( https://www.vip.gov.in ) for further details.<br>
+
+By accessing and using the VIP (hereafter also referred to as VIP, NeGD, MeitY, We or Our), you as the End User (also referred to as You, Your or User) agree to be bound by these Terms. You agree and acknowledge that the access and use of VIP by You is voluntary and of your own accord. If you are aged below 18 years, please get your parent's/guardian's permission/consent before you provide information to us via VIP. Users without this consent are not allowed to provide us with information and in the event, that they do so, we will terminate services with immediate effect. You must provide parent’s/guardian’s valid email ID so that VIP can then send an email to the parent/guardian notifying that the child has registered for the service and VIP has been given to understand that parental consent is there.<br>
+
+You acknowledge and hereby agree that your access and use of VIP shall be subject to the applicable laws, rules and regulations for the time being in force in India. VIP is currently available on Google Play Store (for Android mobile devices) Apple store (for Apple mobile devices), Windows store (for Microsoft mobile devices), and Website.<br>
+
+As a user of VIP, You are granted non-exclusive, non-transferable, revocable, limited license to access and use VIP in accordance with these Terms. Violation of any of the provisions of these Terms shall result in termination of Your account without any notice. We reserve the right to make changes to VIP and/or to these Terms at any time.<br>
+
+The following Terms supersede and replace all earlier Terms of Service/Use, You may have accepted governing Your use of VIP.<br>
+
+<h4>VIP – Scope & Offered Services</h4>
+VIP, built with an objective to fast-track mobile governance in the country, is a common unified platform, common unified mobile application/website, providing citizens/residents a single point access to major government services through mobile device. On-boarding of different citizen-centric government services on VIP is envisaged to be a continuous process that shall result in increasing number of such services on VIP with the passage of time. Through the VIP mobile application, You can access pan-India citizen/resident-centric government services of Your choice, from any location, at any time, offered by central/state/union territory government departments, local bodies and their agencies and utility services from corporates (herein after referred to as “Service Providers”). Access to VIP is public. You can register and create the VIP account using Your mobile number.
+
+<h4>Responsibility and Ownership of Information and Content</h4>
+When You register with VIP and/or use VIP services, You may need to provide personal information necessary for the requested service delivery such as name, address, date of birth, valid email, valid mobile number, certificates/supporting documents etc. You shall be solely responsible for the authenticity of Your personal information. You understand and acknowledge that You shall be providing all such necessary personal information at your free will and in accordance with the requirements of the specific service You wish to avail. You also authorize us and our registered Service Providers to store Your information, documents and/or certificates electronically for service delivery and/or for the personalization of service delivery and experience enhancement and/or for the relevant analytics and/or for legal requirements and/or for any other relevant purposes; please read the “Privacy Policy” carefully that forms the part of these “Terms”.
+
+VIP may perform some basic checks on the type and quality of the contents provided by YOU and reserves the right to refuse or remove any content or account that, in its sole discretion, is found to be unlawful, offensive, threatening, promoting violence, defamatory, pornographic, or violating VIP Terms of Service/Use and Privacy Policy or violating IPR (intellectual property rights) of any of VIP users/partners and/or of NeGD/ MeitY and/or of UMANG’s registered Service Provider or violative of any law for the time being in force.
+
+<h4>Limitation on Liability</h4>
+Though VIP has been designed for high availability, tested for functionality and audited for security by CERT-IN empanelled reputed agency, however, VIP does not guarantee that the platform shall meet any specific requirements or that it will be available uninterrupted, or that it is 100% secure, encrypted and error-free or that the quality of any products, services, information available on the platform will meet user expectations. The results delivered by VIP will be as accurate as that supplied by the parent department(s).
+
+Users expressly understand and agree that in no event will VIP, NeGD/ MeitY or the Government of India be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or about the use of VIP.
+
+The services available on VIP are the front-end consolidation into single mobile application with all relevant data/database and service flows/logic created, maintained and served dynamically by the concerned central/ state/union territory government departments, local bodies and their agencies and corporates/ private bodies (utility services). VIP is consolidating and enabling these services solely for Your information, use and convenience through the unified mobile Application/website. When You select a service, You are subject to the privacy, security policies and terms of service conditions of the respective registered Service Provider.
+
+VIP does not guarantee the availability of services, offered by its registered Service Providers, at all times as the availability of the services depend on several factors such as telecom network, Cloud Service Provider and respective partner Service Providers.
+
+<h4>Limitation on Use</h4>
+The VIP platform is for Your personal use only and not for commercial exploitation. You shall not decompile, reverse engineer, disassemble, rent, lease, loan, sell, sublicense, copy, modify, reproduce, republish, distribute, display or create derivative works from VIP. Nor may You use any network monitoring or discovery software to determine the site architecture, or extract information about usage, individual identities or users. You will not use any robot, spider, other automatic software or device, or manual process to monitor or copy VIP without our prior written permission. Any unauthorized use of VIP is prohibited and is an offence under applicable laws. The use of any software (e.g. bots, scraper tools) or other automatic devices to access, monitor or copy the website pages is prohibited unless expressly authorized by VIP in writing.
+
+<h4>Right to Modify or Terminate</h4>
+VIP reserves the right at any time to modify or discontinue, temporarily or permanently, the Service (or any part of it), with or without notice. VIP, in its sole discretion, reserves the right to terminate any user account and refuse any current or future use of the platform for any reason at any time without giving any prior notice. Such termination may result in the deactivation or deletion of the account and the loss of all the content hosted therein.
+
+<h4>Applicable Law</h4>
+These Terms shall be governed by and construed in accordance with the Indian law. Any dispute arising under these Terms shall be subjected to the exclusive jurisdiction of the courts located in New Delhi only.
+
+<h4>Proprietary Rights and Licence</h4>
+All trademarks (including logo, mark, name, caption), copyright, database rights and other intellectual property rights of any nature in VIP, its components and offered services, vests with NeGD/ MeitY, Government of India. You should not adapt or use otherwise any name, mark or logo that is identical, or confusingly similar to any of the marks and logos used by and/or related to VIP. You agree and acknowledge that the access and use of the VIP and services through this shall not be construed to confer on You any rights of any nature including rights in any form of intellectual property contained in the services and/or VIP or related to NeGD/ MeitY, Government of India. If in the course of accessing and using VIP and its services through this, You even unintentionally infringe the rights including rights in any form of intellectual property of NeGD/ MeitY, Government of India in the services, You shall immediately cease and desist any such use.
+
+<h4>Conditions of Use</h4>
+VIP and its services are not available to anyone previously removed from using VIP services by NeGD/MeitY, Government of India.</div>
+
+
+  </body>
+
+</html>

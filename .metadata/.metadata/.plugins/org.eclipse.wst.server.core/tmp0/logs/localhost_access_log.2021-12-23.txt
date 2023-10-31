@@ -1,0 +1,14 @@
+127.0.0.1 - - [23/Dec/2021:17:03:28 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [23/Dec/2021:17:03:47 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:03:49 +0530] "GET /SSPproject/login.jsp HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:04:14 +0530] "POST /SSPproject/loginAction.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:04:14 +0530] "GET /SSPproject/login.jsp?msg=notexist HTTP/1.1" 200 575
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:05:23 +0530] "GET /SSPproject/signup.jsp HTTP/1.1" 200 1019
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:06:06 +0530] "POST /SSPproject/signupAction.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:06:06 +0530] "GET /SSPproject/signup.jsp?msg=valid HTTP/1.1" 200 1057
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:06:08 +0530] "GET /SSPproject/login.jsp HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:06:20 +0530] "POST /SSPproject/loginAction.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:06:20 +0530] "GET /SSPproject/login.jsp?msg=notexist HTTP/1.1" 200 575
+127.0.0.1 - - [23/Dec/2021:17:18:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:18:05 +0530] "GET /SSPproject/login.jsp HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [23/Dec/2021:17:21:52 +0530] "GET /SSPproject/login.jsp HTTP/1.1" 200 530

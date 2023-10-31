@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <title>VIP</title>
+
+  <style>
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    top:145px;
+    max-width:100%;
+    position:absolute;
+    margin-left:800px;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  
+  /*
+==========================================
+footer section Design
+==========================================
+*/
+.footer{
+  background: #472780;
+  bottom:50%;
+}
+.footer .footer-link{
+  font-size:1rem;
+  color:var(--white-color);
+  padding:0 1.875rem;
+}
+.footer .footer-link:hover{
+  color:var(--white-color) !important;
+}
+.footer a i{
+  font-size: 1.5rem;
+  color:var(--white-color);
+  padding:0 1rem;
+}
+
+
+@media (max-width:1024px)
+{
+
+    /* about section */
+
+}
+
+@media (max-width: 991px)
+{
+
+    /*custom classes  */
+    .text-content{
+        width:100%;
+    }
+
+
+    /* navbar brand */
+    .navigation-wrap .navbar-brand img{
+        height:3.8125rem;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+    /* Banner Design */
+    .top-banner{
+        padding:9.375rem 0 9.375rem;
+    }
+
+    /* carousel design */
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding:0;
+    }
+}
+  
+  
+  </style>
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+  <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="images\css\style.css">
+
+  <link rel="stylesheet" href="images\css\responsive-style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100" style="background-color:#FBF8FF;">
+  <!-- header design -->
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap" style="background:#472780
+">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/vip.png" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About VIP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#benefits">Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+            <li><a href="loginvip.jsp"><button class="main-btn">Login/Register</a></button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- section-1 top-banner -->
+  <section id="home">
+
+      <img style="margin-left:10px;" src="./images/img/img-1.PNG" alt="First slide">
+      <h1 style="color:#472780;font-family:serif;;font-style:bold;font-size:8rem;position:absolute;top:185px;width:100px;height:100px;margin-left:190px">VIP <br> </h1>
+      <h2 style="top:350px; position:absolute;margin-left:190px">Who is VIP ? Obviously Its You!</h2>
+      <p>*One App,One Platform,Many Services</p>
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images\v2 (1).png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+
+        <img src="images\v3.png" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade" >
+
+        <img src="images\v4 (1).png" style="width:100%">
+
+      </div>
+
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
+
+
+
+</section>
+  <section  style="top:500px;position:absolute;background:#472780;width:100%;height:360px">
+    <div id="about" style="top:12px;position:absolute;margin-left:100px">
+    <iframe width="600" height="337"src="https://www.youtube.com/embed/Y9WutHc_Zsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="border-radius:30px" ></iframe>
+  </div>
+  <div   style="top:50px;position:absolute;margin-left:730px;color:White;font-family:Gill Sans Extrabold, sans-serif ;font-size:3rem">
+    About VIP
+    </div>
+  <div style="top:150px;position:absolute;margin-left:730px;color:White;font-family:sans-serif;font-size:1.5rem">
+
+  VIP (Very Important Person) is a single platform developed for all Indian Citizens to access pan India e-Gov services ranging from Central to Local Government bodies.
+
+  </div>
+    </section>
+    <section >
+      <div id="benefits" style="top:900px;position:absolute;margin-left:562px ;color:black;font-family:Gill Sans Extrabold, sans-serif;font-size:3rem" >
+        Benefits of VIP
+      </div>
+      <div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hovereffect" style="top:1000px;position:absolute;margin-left:60px;">
+        <div class="card " style="width: 20rem;background-color:#cec8ef;">
+  <img class="card-img-top " src="images\vehicle.png" alt="Card image cap">
+  <div class="overlay">
+           <ul>
+           	<li style="position:absolute;margin-left:3px;top:25px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Registration</li>
+           	<li  style="position:absolute;margin-left:3px;top:75px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Document Renewal</li>
+           	<li  style="position:absolute;margin-left:3px;top:130px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Latest Updates</li>
+
+           </ul>
+        </div>
+      <div class="card-body">
+  <center>  <h5 class="card-title">All <span style="color:#472780">SERVICES</span> at one place</h5></center>
+  </div>
+</div>
+
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hovereffect" style="top:1000px;position:absolute;margin-left:420px">
+    <div class="card" style="width: 20rem;background-color:rgb(0, 0, 1,0.1)">
+<img class="card-img-top" src="images\documents.png" alt="Card image cap">
+<div class="overlay">
+         <ul>
+          <li style="position:absolute;margin-left:3px;top:25px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Aadhaar</li>
+          <li  style="position:absolute;margin-left:3px;top:75px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Driving License</li>
+          <li  style="position:absolute;margin-left:3px;top:130px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Vehicle RC</li>
+          <li  style="position:absolute;margin-left:3px;top:180px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">PAN</li>
+          <li  style="position:absolute;margin-left:3px;top:230px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">...and many more from Digilocker</li>
+
+         </ul>
+      </div>
+<div class="card-body">
+<center><h5 class="card-title">All<span style="color:#472780"> DOCUMENTS</span> at one place</h5><center>
+
+</div>
+</div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hovereffect" style="top:1000px;position:absolute;margin-left:780px">
+    <div class="card" style="width:20rem;background-color:#cec8ef;">
+<img class="card-img-top" src="images\project-scheme.png" alt="Card image cap">
+<div class="overlay">
+         <ul>
+          <li style="position:absolute;margin-left:3px;top:25px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Health Schemes</li>
+          <li  style="position:absolute;margin-left:3px;top:75px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Education Schemes</li>
+          <li  style="position:absolute;margin-left:3px;top:130px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Farmer Schemes</li>
+
+         </ul>
+      </div>
+<div class="card-body">
+<center><h5 class="card-title">All<span style="color:#472780"> SCHEMES</span> at one place</h5></center>
+</div>
+</div>
+  </div>
+
+  <div class=" hovereffect" style="top:1000px;position:absolute;margin-left:1150px">
+    <div class="card" style="width: 20rem;height:23.9rem;background-color:rgb(0, 0, 1,0.1)">
+<img class="card-img-top" src="images\social-engagement.png" alt="Card image cap">
+<div class="overlay">
+         <ul>
+          <li style="position:absolute;margin-left:3px;top:25px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Feedback & Rating</li>
+          <li  style="position:absolute;margin-left:3px;top:75px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Live Chat</li>
+          <li  style="position:absolute;margin-left:3px;top:130px;font-size:1.7rem;font-style:calibri;list-style-image: url(C:/Sublime/right-arrow.png);list-style-position: inside;">Customer Support</li>
+
+         </ul>
+      </div>
+<div class="card-body">
+<center><h5 class="card-title" style="top:330px ;position:absolute">All<span style="color:#472780"> ENGAGEMENTS</span> at one place</h5></center>
+</div>
+</div>
+  </div>
+  </section>
+    <section>
+      <div  id="categories" style="top:1430px;position:absolute;margin-left:562px ;color:black;font-family:Gill Sans Extrabold, sans-serif;font-size:3rem" >
+        Categories of VIP
+        <a style="top:18px;margin-left:375px ;position:absolute;" class="btn btn-warning mb-3 mr-1 " href="#carouselExampleIndicators2" role="button" data-slide="prev">
+        <i class="fa fa-arrow-left"></i>
+        </a>
+        <a  style="top:18px;margin-left:425px;position:absolute;" class="btn btn-warning mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+        <i class="fa fa-arrow-right"></i>
+        </a>
+      </div>
+      <section class="pt-5 pb-5" style="top:1500px;position:absolute;margin-left:100px">
+
+<div class="container">
+<div class="row">
+
+<div class="col-12">
+<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+<div class="carousel-inner">
+  <div class="carousel-item active">
+      <div class="row">
+
+          <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img class="img-fluid" alt="100%x280" src="images\p1.jpg">
+                  <div class="card-body">
+                      <h4 class="card-title">EDUCATION</h4>
+
+                  </div>
+
+              </div>
+          </div>
+          <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img class="img-fluid" alt="100%x280" src="images\p2.jpg">
+                  <div class="card-body">
+                      <h4 class="card-title">Women & Children</h4>
+
+
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img class="img-fluid" alt="100%x280" src="images\p3.jpg">
+                  <div class="card-body">
+                      <h4 class="card-title">Youth. Skills and Employment</h4>
+
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+  <div class="carousel-item">
+      <div class="row">
+
+          <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img class="img-fluid" alt="100%x280" src="images\p4.jpg">
+                  <div class="card-body">
+                      <h4 class="card-title">Utilities</h4>
+
+                  </div>
+
+              </div>
+          </div>
+          <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img class="img-fluid" alt="100%x280" src="images\p5.jpg">
+                  <div class="card-body">
+                      <h4 class="card-title">Health</h4>
+
+
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img class="img-fluid" alt="100%x280" src="images\p6.jpg">
+                  <div class="card-body">
+                      <h4 class="card-title">Finance and Banking</h4>
+
+
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="testimonials" style="top:1900px;position:absolute;background:#472780;width:100%;height:360px">
+  <div style="top:20px;position:absolute;margin-left:595px ;color:white;font-family:Gill Sans Extrabold, sans-serif;font-size:3rem" >
+  Testimonials</div>
+  <div class="swiper-container">
+  <div class="swiper-wrapper">
+   <div class="swiper-slide" style="background-color:white">
+    <section><img src="images\xperson_3.jpg.pagespeed.ic.oUH0UWEBtY.webp" style="margin-left:15px; width:75px; height: 75px; margin-top:10px; border-radius:60px;"> &nbsp;&nbsp;&nbsp; Cat Valentine</section>
+    <img src="images\double-quotes.png" style="margin-left:255px;position:absolute;top:30px; height:30px; width:30px;">
+    <div style="top:100px;position:absolute">
+      Great app many  useful application in one place easy to use.
+    </div>
+  </div>
+  
+  <div class="swiper-slide" style="background-color:white">
+    <section><img src="images\xperson_1.jpg.pagespeed.ic.ooHCuVZdfd.webp" style="margin-left:15px; width:75px; height: 75px; margin-top:10px; border-radius:60px;"> &nbsp;&nbsp;&nbsp; Manjunath Ronald</section>
+    <img src="images\double-quotes.png" style="margin-left:255px;position:absolute;top:30px; height:30px; width:30px;">
+    <div style="top:100px;position:absolute">
+      Wonderful and very useful application.Add more and more departments so that we can have higher facilities.
+    </div>
+  </div>
+  
+  <div class="swiper-slide" style="background-color:white">
+    <section><img src="images\xperson_4.jpg.pagespeed.ic.FGCt_yirqW.webp" style="margin-left:15px; width:75px; height: 75px; margin-top:10px; border-radius:60px;"> &nbsp;&nbsp;&nbsp; Beck Williams</section>
+    <img src="images\double-quotes.png" style="margin-left:255px;position:absolute;top:30px; height:30px; width:30px;">
+    <div style="top:100px;position:absolute">
+     I love this application. Very usesful to keep digital copies at one place.
+    </div>
+  </div>
+  
+  <div class="swiper-slide" style="background-color:white">
+    <section><img src="images\xperson_5.jpg.pagespeed.ic.NxfnTLrPGT.webp" style="margin-left:15px; width:75px; height: 75px; margin-top:10px; border-radius:60px;"> &nbsp;&nbsp;&nbsp; Veronica Vega </section>
+    <img src="images\double-quotes.png" style="margin-left:255px;position:absolute;top:30px; height:30px; width:30px;">
+    <div style="top:100px;position:absolute">
+     I love this application. Very usesful to keep digital copies at one place.
+    </div>
+  </div>
+  
+   <div class="swiper-slide" style="background-color:white">
+    <section><img src="images\xperson_2.jpg.pagespeed.ic.Mxt35V2im-.webp" style="margin-left:15px; width:75px; height: 75px; margin-top:10px; border-radius:60px;"> &nbsp;&nbsp;&nbsp; Sushila Tomer</section>
+    <img src="images\double-quotes.png" style="margin-left:255px;position:absolute;top:30px; height:30px; width:30px;">
+    <div style="top:100px;position:absolute">
+      Great app to get awareness of eligibility of government schemes and policies.
+    </div>
+  </div>
+ 
+</div>
+<div class="swiper-pagination"></div>
+</div>
+</div>
+<script>
+var swiper = new Swiper('.swiper-container', {
+pagination: '.swiper-pagination',
+effect: 'coverflow',
+grabCursor: true,
+centeredSlides: false,
+slidesPerView:'auto',
+coverflow: {
+rotate:0,
+stretch: 0,
+depth: 100,
+modifier: 0,
+slideShadows : true
+},
+loop:true
+});
+</script>
+<div _ngcontent-serverapp-c108 id-"contactInfo"> <div _ngcontent-serverapp-c108 class="container">= $0
+
+<app-contact-info _ngcontent-serverapp-c108 _nghost-serverapp-c107>
+
+<div _ngcontent-serverapp-c107 class="contact-heading"> ch2 ngcontent-serverapp-c107 class="text-center">Contact Us</h2>
+
+</div>
+
+<div _ngcontent-serverapp-c107 class="contact-info">
+
+<div _ngcontent-serverapp-c107 class="row"> flex <div _ngcontent-serverapp-c107 class="col-md-5 contact-info_co1">
+
+<div _ngcontent-serverapp-c107 class="contact-info_card">
+
+<div _ngcontent-serverapp-c107 class "contact-info_card_image"> <img _ngcontent-serverapp-c107 src="https://static.umang.gov.in/can/landing/icons/address.svg" alt="address">
+
+</div>
+
+<div _ngcontent-serverapp-c107 class="contact-info__card__content">
+
+ch6_ngcontent-serverapp c107 Address:</h6>
+
+<p ngcontent-serverapp-c197>
+
+"National e-Governance Division, 4th Floor, Electronics Niketan, Ministry of Electronics & IT, 6, CGO Complex, Lodhi Road, New Delhi: 110003"
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+<div _ngcontent-serverapp-c107 class="col-md-4 contact-info__col">
+
+<div _ngcontent-serverapp-c107 class="contact-info_card">
+
+<div _ngcontent-serverapp-c107 class="contact-info_card_image">
+
+<img _ngcontent-serverapp-c107 src="https://static.umang.gov.in/cdn/landing/icons/email.svg" alt-"email">
+
+</div>
+
+<div _ngcontent-serverapp-c107 class="contact-info__card__content">
+
+<h6_ngcontent-serverapp-c107>Email</h6>
+
+<p _ngcontent-serverapp-c107>customercare[at] umang[dot]gov[dot]in</p>
+
+<!---->
+
+<!---->
+
+</div>
+
+</div>
+
+</div>
+
+<div _ngcontent-serverapp-c107 class="col-md-3 contact-info_col">
+
+<div _ngcontent-serverapp-c107 class "contact-info_card">
+
+<div _ngcontent-serverapp-c107 class="contact-info_card_image">
+
+<img src="https://static.umang.gov.in/cdn/landing/icons/support.svg" alt-support>
+
+</div>
+
+<div></div> _ngcontent-serverapp-c107 class="contact-info__card__content">
+
+<h6> Customer Support</h6>
+
+<p> 1800-11-5246</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- section-9 footer-->
+  <footer id="footer" class="footer" style="position:absolute;top:2300px;width:100%;">
+    <div class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a class="footer-link" href="#testimonials">Reviews</a>
+            <a class="footer-link" href="#about">About</a>
+            <a class="footer-link" href="#categories">Categories</a>
+            <a class="footer-link" href="#benefits">Benefits</a>
+            <div class="footer-social pt-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light">© 2021. VIP. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,404 @@
+<%@page errorPage="error.jsp" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <title>100% Organic</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive-style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+<%String email=session.getAttribute("email").toString(); %>>
+  <!-- header design -->
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/organicLogo.png" class="img-fluid" style="position:absolute;margin-left:550px;">
+          <img src="./images/Viplogo.png" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="homepage.jsp">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="myCart.jsp">My Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="myOrders.jsp">My Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Logout.jsp">Logout</a>
+            </li>
+            <li><a href="#"><h3 style="font-size:1.5rem; color:red;"> <%out.println(email);%></h3></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- section-1 top-banner -->
+  <section id="home">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <h1>FARM FRESH ORGANIC <br><span> Everything Available Here!</span></h1>
+            <h2>Enjoy Free Home Delivery In Hyderabad</h2>
+
+            <div class="mt-4">
+              <a class="main-btn" href="login.jsp">Login <i class="fas fa-shopping-basket ps-3"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- section-2 our-menu -->
+  <section class="our-menu p-4">
+    <div class="container text-center">
+      <h2 class="pb-4">Our Products</h2>
+      <div class="row">
+        <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="cat-image">
+              <a class="link_category_product" href="prodfruits.jsp">
+                <img src="./images/img/fruits.png"  class="img-fluid">
+              </a>
+            </div>
+            <div class="cat-title">
+              <a href="prodfruits.jsp">Fruits</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="cat-image">
+              <a class="link_category_product" href="vegeforshow.jsp">
+                <img src="./images/img/vegetable.png" class="img-fluid">
+              </a>
+            </div>
+            <div class="cat-title">
+              <a href="vegeforshow.jsp">Vegetables</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="cat-image">
+              <a class="link_category_product" href="prodgrains.jsp">
+                <img src="./images/img/wheat-sack (1).png" class="img-fluid">
+              </a>
+            </div>
+            <div class="cat-title">
+              <a href="prodgrains.jsp">Grains</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="cat-image">
+              <a class="link_category_product" href="dryforshow.jsp">
+                <img src="./images/img/nuts (1).png" class="img-fluid">
+              </a>
+            </div>
+            <div class="cat-title">
+              <a href="dryforshow.jsp">Organic Dry Fruits</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="cat-image">
+              <a class="link_category_product" href="oilforshow.jsp">
+                <img src="./images/img/olive-oil (1).png" class="img-fluid">
+              </a>
+            </div>
+            <div class="cat-title">
+              <a href="oilforshow.jsp">Oils</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="cat-image">
+              <a class="link_category_product" href="spicesforshow.jsp">
+                <img src="./images/img/spicy-food (1).png" class="img-fluid">
+              </a>
+            </div>
+            <div class="cat-title">
+              <a href="spicesforshow.jsp">Spices</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section-3 about-->
+  <section id="about">
+    <div class="about-section wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+            <div class="card border-0">
+              <img src="./images/img/img-1.PNG" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 text-sec">
+            <h2>Straight From The Earth To Your Plate.</h2>
+            <p>Now delivering Fresh Produce across<h1> <span>Hyderabad</span></h1></p>
+            <button class="main-btn mt-4" onclick="document.getElementById('id01').style.display='block'">Learn More</button>
+            <div id="id01" class="w3-modal"  >
+              <div class="w3-modal-content w3-animate-top w3-card-4" id="header">
+                <header class="w3-container w3-teal" >
+                  <span onclick="document.getElementById('id01').style.display='none'"
+                  class="w3-button w3-display-topright">&times;</span>
+                  <h2>Delivering across Hyderabad</h2>
+                </header>
+                <div class="w3-container">
+                  <h1 style="color:green ;font-family:calibri; font-size:2.2rem;  text-shadow: 1px 0 0px #FFC222;">Enjoy free home delivery in Hyderabad</h1>
+                  <h3 style="color:black ;font-style:Source Sans Pro; font-size:1.7rem;">On order values above Rs.300</h3>
+                  <ul>
+                    <li id="l1" style="font-size:1.3rem;font-style:calibri;list-style-image: url(C:/Sublime/fv.png);list-style-position: inside;">Organic Fruits and Vegetables </li>
+                    <li id="l1" style="font-size:1.3rem;font-style:calibri;list-style-image: url(C:/Sublime/hand.png);list-style-position: inside;">Organic staples </li>
+                    <li id="l1" style="font-size:1.3rem;font-style:calibri;list-style-image: url(C:/Sublime/healthcare.png);list-style-position: inside;">Health & Wellness </li>
+                    <li id="l1" style="font-size:1.3rem;font-style:calibri;list-style-image: url(C:/Sublime/beverage.png);list-style-position: inside;">Snacks & Beverages</li>
+                    <li id="l1" style="font-size:1.3rem;font-style:calibri;list-style-image: url(C:/Sublime/home.png);list-style-position: inside;">Home & Living </li>
+                  </ul>
+
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="container food-type">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+            <h2>Good Things Comes In Wholesome Packages</h2>
+            <p>Curated organic fruit baskets & veggie Baskets</p>
+            <ul class="list-unstyled py-3">
+              <li>Fruit Basket @399/-</li>
+              <li>Veggie Basket @639/-.</li>
+              <li>Fruit + Veggie Basket @950/-</li>
+            </ul>
+            <button class="main-btn mt-4" onclick="document.getElementById('id02').style.display='block'">Learn More</button>
+            <div id="id02" class="w3-modal"  >
+              <div class="w3-modal-content w3-animate-top w3-card-4" id="header">
+                <header class="w3-container w3-teal" >
+                  <span onclick="document.getElementById('id02').style.display='none'"
+                  class="w3-button w3-display-topright">&times;</span>
+                  <h2>Combos</h2>
+                </header>
+                <div class="w3-container">
+                  <h3 style="color:black ;font-style:Source Sans Pro; font-size:1.7rem;">Buy these Fruits & Vegetable combos designed for your convenience and regular top-ups.</h3>
+                  <h2 style="color:green;">Festive Combo 1</h2>
+                  <h5>Apple Shimla(4Pcs), Banana Robusta(500gm), Sweetlime(500gm), Pineapple(1pc) and Guava(500gm)</h5>
+                  <h2 style="color:green;">Festive Combo 2</h2>
+                  <h5>Apple Shimla(4Pcs), Banana Yelakki(500gm), Sweetlime(500gm), Guava(500gm) and Pomegranate(500gm).</h5>
+                  <h2 style="color:green;">POT Combo</h2>
+                  <h5>Potato(1kg), Onion(1kg) and Tomato Hybrid(1kg)</h5>
+                  <h2 style="color:green;">Indian Greens Combo</h2>
+                  <h5>Spinach(150 gm), Coriander(100 gm), Methi(150gm), Green or Red Amaranthus(200 gm) and Mint(100gm)</h5>
+
+                  <h2 style="color:green;">Value Add Combo</h2>
+                  <h5>Potato,Onion(1kg each),Tomato,Bottlegourd, Ladies Finger(500gm each), Coriander(100gm), Spinach(150gm), Ginger,Garlic,Lemon,Green</h5>
+                  <h2 style="color:green;">Chutney Combo</h2>
+                  <h5>Coriander(100gm), Green Chilli(250gm), Ginger(250gm), Coconut(1pc) and Garlic(250gm)</h5>
+
+            </div>
+          </div>
+          </div>
+        </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="card border-0">
+              <img src="./images/img/img-2.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section-4 explore food-->
+  <section id="explore-food">
+    <div class="explore-food wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content text-center">
+              <h1><span>Blog</span></h1>
+              <p>The choices we make matter.
+
+100%ORGANIC looks to provide people with a healthier and more sustainable approach to life.
+ We aim to be on the frontlines of the revolution for a healthier living. Our brand was conceptualised
+  keeping purity and quality at the heart of everything we do.
+  We aim to revitalise sustainable agricultural practices in India by collaborating directly
+  with the farmers and making natural and healthier food more accessible to all.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card border">
+              <img src="./images/img/img-3.PNG" class="img-fluid">
+              <div class="p-3">
+                <h5>Choose Better</h5>
+                <p>New Year is just around the corner and people are going to set their resolutions, yet again. On top of that list is most likely going to be health and everything around it.  People will seem motivated and will expect this year to be different...
+By 100% ORGANIC</p>
+                <button onclick="window.location='R1.html';" class="mt-2 main-btn">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card border">
+              <img src="./images/img/img-4.PNG" class="img-fluid">
+              <div class="p-3">
+                <h5>Organic jaggery powder benefits and uses</h5>
+                <p>Jaggery is not just a natural sweetener for Indians. These orange blocks of sweetness have been part of our culture since ages. You will find Jaggery in every kitchen waiting to be taken out to be used in traditional sweets...
+By 100% ORGANIC</p>
+                <button onclick="window.location='r2.html';" class="mt-2 main-btn">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card border">
+              <img src="./images/img/img-5.PNG" class="img-fluid">
+              <div class="p-3">
+                <h5>Quick & Delicious Winter Veggie Soup</h5>
+                <p>As the winter months set in, it’s common to crave for comfort food and find yourself indulging in some not-so-healthy but oh-so-delicious meals. From mugs of piping hot chocolate to a spicy bowl of ramen, winter food is definitely enjoyable...
+By 100% ORGANIC</p>
+                <button onclick="window.location='r3.html';"class="mt-2 main-btn">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section-5 testimonial-->
+  <section id="testimonial">
+    <div class="wrapper testimonial-section">
+      <div class="container text-center">
+        <div class="text-center pb-4">
+          <h1>Reviews</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-10 offset-lg-1">
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption">
+                    <img src="./images/review/boy (1).png">
+                    <p>"I am a resident of Villa Greens and I am sending this message as I truly appreciate good quality fruits and vegetables being supplied by you especially in the current situation. The taste of the fruits and vegetables is very good. Wanted to say thank you.   A big thank you 🙏. Thank you for your excellent service. "</p>
+                    <h5>Arjun-Designer</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="./images/review/girl (1).png">
+                    <p>"Fresh and good quality organic produce and grocery, prompt service. Kudos to the management and the team of TG. 👍👏
+
+Laxmi has been a loyal customer of 100% ORGANIC since its inception and enjoys the flexibility of ordering her groceries and essentials via phone. "</p>
+                    <h5>Laxmi - Front End</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="images/review/aunt (1).png">
+                    <p>"I truly appreciate good quality fruits and vegetables being supplied by you especially in the current situation. The taste of the fruits and vegetables is very good. Wanted to say thank you. "</p>
+                    <h5>Ramu - UX Designer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section-6 footer-->
+  <footer id="footer">
+    <div class="footer pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <div class="footer-social pb-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form class="newsletter">
+              <div class="d-flex">
+                <input class="form-control" placeholder="Email Address Here" type="email" style="color:white">
+                <button class="main-btn" type="submit" >Subscribe</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light">© 2021. 100%ORGANIC. All rights reserved.</p>
+              </div>
+              <a href="#home" class="main-btn1">
+                    <img src="C:/sublime/up-arrow.png"></img></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+  <!-- own js -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

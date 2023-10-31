@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- OWN CSS -->
+      <link rel="stylesheet" href=".\images\css\schemes.css">
+    <style>
+    .dropdown {
+      position: absolute;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      margin-left: 330px;
+      margin-top: 100px;
+      background-color: white;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .btn:hover, .dropdown:hover .btn {
+      background-color: #0b7dda;
+    }
+    * {box-sizing: border-box}
+    .gallery-block{padding-bottom: 60px; padding-top: 18px; padding-left: 10px;}
+.gallery-block .heading{margin-bottom: 50px; text-align: center;}
+
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem; text-transform: uppercase;}
+
+.gallery-block.cards-gallery h6{font-size: 17px; font-weight: bold;}
+
+.gallery-block.cards-gallery .card{transition: 0.4s easy;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body{text-align: center;}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block .transform-on-hover:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;}
+    }
+    </style>
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100" style="background-color:#FBF8FF;">
+    <!-- header design -->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap" style="background:#472780">
+        <div class="container">
+          <a class="navbar-brand" href="start_page.html">
+             <img src=".\images\Viplogo.png"  class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+
+
+</div>
+</div>
+
+          </div>
+        </div>
+      </nav>
+
+    </header>
+     
+    <section class="gallery-block cards-gallery" style="position:absolute;margin-left:275px;top:200px;width:975px;height:500px;border-radius: 0.5rem;background-color:white; box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%); ">
+      <div class="col-md-6 col-lg-4">
+             				<div class="card border-0 transform-on-hover" style="position:absolute;margin-left:30px;top:80px;width:230px;">
+             				<a class="lightbox" href="f1.html"><img src=".\images\schemes\f1.png" class="card-img-top"></a></div>
+      <div class="col-md-6 col-lg-4" >
+                      <div class="card border-0 transform-on-hover" style="position:absolute;margin-left:360px;top:80px;width:230px;height: 70px;">
+                     <a class="lightbox" href="f2.html"><img src=".\images\schemes\f2.png" style="height:315px;"class="card-img-top"></a></div>
+        <div class="col-md-6 col-lg-4">
+                      <div class="card border-0 transform-on-hover" style="position:absolute;margin-left:700px;top:80px;width:230px;">
+                     <a class="lightbox" href="f3.html"><img src=".\images\schemes\f3.png" class="card-img-top"></a></div>
+
+
+
+  </body>
+</html>

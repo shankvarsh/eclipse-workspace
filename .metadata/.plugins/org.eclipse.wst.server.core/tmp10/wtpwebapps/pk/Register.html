@@ -1,0 +1,90 @@
+<html>
+<head>
+<title> register </title>
+<style>
+body
+{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background:#34495e;
+}
+.box{
+width:300px;
+padding:40px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#191919;
+text-align:center;
+}
+.box h1{
+color:white;
+text-transform:uppercase;
+font-weight:500;
+}
+.box input[type="text"],.box input[type="password"]{
+border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align:center;
+border:2px solid #3498db;
+padding:14px 10px;
+width:200px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+}
+.box input[type = "text"]:focus,.box input[type= "password"]:focus
+{
+width:280px;
+border-color:#2ecc71;
+}
+.box input[type ="submit"]
+{
+border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align:center;
+border:2px solid #2ecc71;
+padding:14px 40px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+cursor:pointer;
+}
+.box input[type = "submit"]:hover{
+background:#2ecc71;
+}
+</style>
+</head>
+<body>
+<form class="box" action="reg.jsp">
+
+
+<h1>Register Here</h1>
+<input type="text" placeholder="Enter userid" name="userid" required>
+
+    <input type="password" placeholder="Enter Password" name="pwd" required>
+
+<input type="text" placeholder="Enter first name" name="fname" required>
+
+<input type="text" placeholder="Enter last name" name="lname" required>
+
+    <input type="text" placeholder="Enter Email_id" name="email" required>
+
+   
+<input type="submit" name="" value="Register">
+<center> <p class="message">Already Registered? <a href="login.html">LOGIN </a> </center>
+</p></font>
+
+
+
+</form>
+</body>
+</html>

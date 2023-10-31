@@ -1,0 +1,30 @@
+package pract;
+import java.util.*;
+public class linkedlistcollection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+LinkedList <String> colorslist=new LinkedList<> ();
+	colorslist.add("red");
+	colorslist.add("blue");
+	colorslist.add("gree");
+	colorslist.add("yellow");
+	colorslist.add("black");
+	for (String colorss: colorslist)
+	{
+		System.out.println(colorss);
+	}
+	Iterator<String> it=colorslist.iterator();
+	while(it.hasNext())
+	{
+		if(it.next().length()<5)
+		{
+			it.remove();
+		}
+		System.out.println("New Linked list");
+		System.out.println(it);
+	}
+	
+	}
+
+}
